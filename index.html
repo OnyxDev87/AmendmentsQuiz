@@ -9,20 +9,22 @@
   <link rel="icon" type="image/x-icon" href="PythonLogo.png">
 </head>
 
-<script src="index.js"></script>
 <body>
   <div class="container">
     <h1>Amendments Quiz</h1>
     <div id="quiz-container">
       <div id="question-container">
         <p id="question">Question 1</p>
-        <div id="answer-buttons" class="btn-container">Answer 1</div>
+        <button id="answer-buttons" class="btn-container">Answer 1</button>
+        <button id="answer-buttons" class="btn-container">Answer 2</button>
+        <button id="answer-buttons" class="btn-container">Answer 3</button>
       </div>
-      <button id="next-button" class="btn" onclick="nextQuestion()">Next</button>
     </div>
     <div id="score-container" class="hidden">
       <h2>Your Score: <span id="score"></span></h2>
       <button class="btn" onclick="restartQuiz()">Restart Quiz</button>
     </div>
   </div>
+</body>
+<script src="index.js"></script>
 </html>
