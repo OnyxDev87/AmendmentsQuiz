@@ -9,15 +9,19 @@
   <link rel="icon" type="image/x-icon" href="PythonLogo.png">
 </head>
 
-<body>
-  <div class="container">
+<script src="index.js"></script>
+
+<body onload="startQuiz()">
+  <div class="header">
     <h1>Amendments Quiz</h1>
+    <p>Test your knowledge of the amendments to the United States Constitution!</p>
+  <div class="container">
     <div id="quiz-container">
       <div id="question-container">
-        <p id="question">Question 1</p>
-        <button id="answer-buttons" class="btn-container">Answer 1</button>
-        <button id="answer-buttons" class="btn-container">Answer 2</button>
-        <button id="answer-buttons" class="btn-container">Answer 3</button>
+        <p id="question"></p>
+        <button id="answer-button1" class="btn-container"></button>
+        <button id="answer-button2" class="btn-container"></button>
+        <button id="answer-button3" class="btn-container"></button>
       </div>
     </div>
     <div id="score-container" class="hidden">
@@ -26,5 +30,5 @@
     </div>
   </div>
 </body>
-<script src="index.js"></script>
+
 </html>
