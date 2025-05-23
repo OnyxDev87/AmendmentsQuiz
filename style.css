@@ -1,7 +1,39 @@
 body {
     margin: 0;
-    background: #e78b8b;
+    background: #e4c6a9
   }
+
+  .navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #18447F;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+  }
+  
+  .linavbar {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 150%;
+    font-family: 'DynaPuff', serif;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #102d52;
+    color: #A8E0FF;
+  }
+
 
 .container {
     display: flex;
@@ -73,4 +105,14 @@ body {
 #score-container {
   justify-content: center;
   align-items: center;
+}
+
+.dropdown_info{
+    margin: 1% 5% 2% 5%;
+    
+}
+
+summary{
+    margin: 1% 3% 0% 3%;
+    font-size: 1.5em;
 }
