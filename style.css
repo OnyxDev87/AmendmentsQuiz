@@ -26,7 +26,7 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 150%;
-    font-family: 'DynaPuff', serif;
+    font-family: "Figtree", sans-serif;
   }
   
   li a:hover:not(.active) {
@@ -107,9 +107,15 @@ body {
   align-items: center;
 }
 
+.page_title{
+    margin-top: 5%;
+    text-align:center;
+    font-family: "Tangerine", cursive;
+    font-size: 4em;
+    font-weight: 4000;
+}
 .dropdown_info{
     margin: 1% 5% 2% 5%;
-    
 }
 
 summary{
