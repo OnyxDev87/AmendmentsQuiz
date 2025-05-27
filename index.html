@@ -7,12 +7,11 @@
   <title>Amendments Quiz</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
   <link rel="icon" type="image/x-icon" href="PythonLogo.png">
+  <script defer src="index.js"></script>
 </head>
-
-<script src="index.js"></script>
 
 <body onload="startQuiz()">
   <ul class="navbar">
@@ -20,18 +19,20 @@
     <li class="linavbar"><a href="info.html">Learn</a></li>
     <li class="linavbar"><a href="index.html">Quiz</a></li>
     <li class="linavbar"><a href="group.html">More</a></li>
- </ul>
+  </ul>
 
   <div class="header">
     <h1>Amendments Quiz</h1>
     <p>Test your knowledge of the amendments to the United States Constitution!</p>
+  </div>
+
   <div class="container">
     <div id="quiz-container">
       <div id="question-container">
         <p id="question"></p>
-        <button id="answer-button1" class="btn-container"></button>
-        <button id="answer-button2" class="btn-container"></button>
-        <button id="answer-button3" class="btn-container"></button>
+        <button id="answer-button1" class="btn-container" onclick="selectAnswer(0)"></button>
+        <button id="answer-button2" class="btn-container" onclick="selectAnswer(1)"></button>
+        <button id="answer-button3" class="btn-container" onclick="selectAnswer(2)"></button>
       </div>
     </div>
     <div id="score-container" class="hidden">
