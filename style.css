@@ -147,3 +147,21 @@ hr{
   background-color:#102d52;
   border-color: #102d52;
 }
+
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  color: white;
+}
+
+#overlay.hidden {
+  display: none;
+}
