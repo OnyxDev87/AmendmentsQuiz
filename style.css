@@ -186,14 +186,15 @@ hr{
 }
 
 .flex-item-left2 {
-  flex: 30%;
+  flex: 32.5%;
   justify-content: center;
-  margin-left: 10%;
+  margin-left: 7.5%;
 }
 
 .flex-item-right {
-  flex: 40%;
+  flex: 32.5%;
   justify-content: center;
+  margin-right: 7.5%;
 }
 
 .flex-item-right2 {
@@ -224,10 +225,10 @@ hr{
 #learn{
   display: inline-block;
   border-radius: 30px;
-  background-color: #4c9aad;
+  background-color:#102d52;
   border: none;
-  color:  #1e2e38;
-  font-family: 'Funnel Display', serif;
+  color:  #f5f8fa;
+  font-family: "Figtree", sans-serif;
   text-align: center;
   font-size: 1.66em;
   padding: 15px;
@@ -266,4 +267,13 @@ hr{
   margin: 3% 7.5% 3% 7.5%;
   font-size: 1.2em;
   font-family: "Figtree", sans-serif;
+}
+
+p{
+  font-family: "Figtree", sans-serif;
+  line-height: 1.6;
+}
+
+.homeDesc{
+  font-size: 1.5em;
 }
