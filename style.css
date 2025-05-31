@@ -43,9 +43,9 @@ body {
     height: 20%;
     margin: auto;
     width: 50%;
-    border: 3px solid rgb(182, 5, 5);
+    border: 3px solid rgb(111, 31, 31);
     border-radius:30px;
-    background-color: rgb(182, 5, 5);
+    background-color: rgb(111, 31, 31);
     padding: 10px;
 }
 
@@ -225,7 +225,7 @@ hr{
 #learn{
   display: inline-block;
   border-radius: 30px;
-  background-color:#102d52;
+  background-color:#18447F;
   border: none;
   color:  #f5f8fa;
   font-family: "Figtree", sans-serif;
@@ -276,4 +276,10 @@ p{
 
 .homeDesc{
   font-size: 1.5em;
+}
+
+.header{
+  font-family: "Figtree", sans-serif;
+  text-align: center;
+  margin-top: 2%;
 }
