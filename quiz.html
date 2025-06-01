@@ -28,28 +28,28 @@
   <ul class="navbar">
     <li class="linavbar"><a href="homePage.html">Home</a></li>
     <li class="linavbar"><a href="info.html">Learn</a></li>
-    <li class="linavbar"><a href="index.html">Quiz</a></li>
+    <li class="linavbar"><a href="quiz.html">Quiz</a></li>
     <li class="linavbar"><a href="group.html">More</a></li>
   </ul>
 
   <div class="header">
     <h1 class="page_title">Amendments Quiz</h1>
-    <p>Test your knowledge of the amendments to the United States Constitution!</p>
+    <p id="desc">Test your knowledge of the  United States Constitution!</p>
   </div>
 
   <div class="container">
     <div id="quiz-container">
       <div id="question-container">
         <div id="overlay" class="hidden">
-          <h2>Quiz Over!</h2>
+          <h2 class="font">Quiz Over!</h2>
           <br>
-          <p>Your final score is: <span id="final-score"></span></p>
+          <p class="font">Your final score is: <span id="final-score"></span></p>
           <button class="btn" onclick="startQuiz()">Restart Quiz</button>
         </div>
         <p id="question"></p>
-        <button id="answer-button1" class="btn-container" onclick="selectAnswer(0)"></button>
-        <button id="answer-button2" class="btn-container" onclick="selectAnswer(1)"></button>
-        <button id="answer-button3" class="btn-container" onclick="selectAnswer(2)"></button>
+        <button id="answer-button1" class="btn-container" class="font" onclick="selectAnswer(0)"></button>
+        <button id="answer-button2" class="btn-container" class="font" onclick="selectAnswer(1)"></button>
+        <button id="answer-button3" class="btn-container" class="font" onclick="selectAnswer(2)"></button>
       </div>
     </div>
     <div id="score-container" class="hidden">
